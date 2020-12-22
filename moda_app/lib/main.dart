@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:moda_app/Detay.dart';
+import 'package:moda_app/detail.dart';
 
 void main() {
   return runApp(ModaApp());
