@@ -1,16 +1,5 @@
-# moda_app
+# Moda App UI 
 
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://user-images.githubusercontent.com/50717631/153753029-99ee8555-252e-4dc4-b8a8-fe39ece30276.gif" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/50717631/153753067-2f20446c-4df5-4c16-b5c3-c08cdf0ceafe.png" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/50717631/153753089-ea2ef0a9-ce42-4e31-a0be-919993214075.png" width="300" height="600">
