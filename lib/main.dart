@@ -86,27 +86,27 @@ class _AnaSayfaState extends State<AnaSayfa>
               padding: EdgeInsets.all(10),
               scrollDirection: Axis.horizontal,
               children: <Widget>[
-                listeElemani("assets/model1.jpeg", "assets/chanellogo.jpg"),
+                listElement("assets/model1.jpeg", "assets/chanellogo.jpg"),
                 SizedBox(
                   width: 20,
                 ),
-                listeElemani("assets/model2.jpeg", "assets/louisvuitton.jpg"),
+                listElement("assets/model2.jpeg", "assets/louisvuitton.jpg"),
                 SizedBox(
                   width: 20,
                 ),
-                listeElemani("assets/model3.jpeg", "assets/chloelogo.png"),
+                listElement("assets/model3.jpeg", "assets/chloelogo.png"),
                 SizedBox(
                   width: 20,
                 ),
-                listeElemani("assets/model1.jpeg", "assets/chanellogo.jpg"),
+                listElement("assets/model1.jpeg", "assets/chanellogo.jpg"),
                 SizedBox(
                   width: 20,
                 ),
-                listeElemani("assets/model2.jpeg", "assets/louisvuitton.jpg"),
+                listElement("assets/model2.jpeg", "assets/louisvuitton.jpg"),
                 SizedBox(
                   width: 20,
                 ),
-                listeElemani("assets/model3.jpeg", "assets/chloelogo.png"),
+                listElement("assets/model3.jpeg", "assets/chloelogo.png"),
                 SizedBox(
                   width: 20,
                 ),
@@ -200,13 +200,15 @@ class _AnaSayfaState extends State<AnaSayfa>
                         InkWell(
                           onTap: () {
                             Navigator.of(context).push(MaterialPageRoute(
-                                builder: (context) => Detay(imagePath:"assets/modelgrid1.jpeg")));
+                                builder: (context) => Detay(
+                                    imagePath: "assets/modelgrid1.jpeg")));
                           },
                           child: Hero(
                             tag: 'assets/modelgrid1.jpeg',
                             child: Container(
                               height: 200,
-                              width: (MediaQuery.of(context).size.width - 50) / 2,
+                              width:
+                                  (MediaQuery.of(context).size.width - 50) / 2,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(5),
                                 image: DecorationImage(
@@ -225,18 +227,21 @@ class _AnaSayfaState extends State<AnaSayfa>
                             InkWell(
                               onTap: () {
                                 Navigator.of(context).push(MaterialPageRoute(
-                                    builder: (context) => Detay(imagePath:"assets/modelgrid2.jpeg")));
+                                    builder: (context) => Detay(
+                                        imagePath: "assets/modelgrid2.jpeg")));
                               },
                               child: Hero(
                                 tag: 'assets/modelgrid2.jpeg',
                                 child: Container(
                                   height: 95,
-                                  width:
-                                      (MediaQuery.of(context).size.width - 100) / 2,
+                                  width: (MediaQuery.of(context).size.width -
+                                          100) /
+                                      2,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(5),
                                     image: DecorationImage(
-                                      image: AssetImage("assets/modelgrid2.jpeg"),
+                                      image:
+                                          AssetImage("assets/modelgrid2.jpeg"),
                                       fit: BoxFit.cover,
                                     ),
                                   ),
@@ -249,18 +254,21 @@ class _AnaSayfaState extends State<AnaSayfa>
                             InkWell(
                               onTap: () {
                                 Navigator.of(context).push(MaterialPageRoute(
-                                    builder: (context) => Detay(imagePath:"assets/modelgrid3.jpeg")));
+                                    builder: (context) => Detay(
+                                        imagePath: "assets/modelgrid3.jpeg")));
                               },
                               child: Hero(
                                 tag: 'assets/modelgrid3.jpeg',
                                 child: Container(
                                   height: 95,
-                                  width:
-                                      (MediaQuery.of(context).size.width - 100) / 2,
+                                  width: (MediaQuery.of(context).size.width -
+                                          100) /
+                                      2,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(5),
                                     image: DecorationImage(
-                                      image: AssetImage("assets/modelgrid3.jpeg"),
+                                      image:
+                                          AssetImage("assets/modelgrid3.jpeg"),
                                       fit: BoxFit.cover,
                                     ),
                                   ),
@@ -397,7 +405,7 @@ class _AnaSayfaState extends State<AnaSayfa>
     );
   }
 
-  listeElemani(String imagePath, String logoPath) {
+  listElement(String imagePath, String logoPath) {
     return Column(
       children: <Widget>[
         Stack(

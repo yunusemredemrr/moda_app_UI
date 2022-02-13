@@ -118,6 +118,7 @@ class _DetayState extends State<Detay> {
                           FloatingActionButton(
                             child: Center(child: Icon(Icons.arrow_forward_ios)),
                             backgroundColor: Colors.brown,
+                            onPressed: () {},
                           ),
                         ],
                       ),
@@ -149,7 +150,10 @@ class _DetayState extends State<Detay> {
                           fontWeight: FontWeight.bold),
                     ),
                   ),
-                  Icon(Icons.arrow_forward_ios,color: Colors.white,),
+                  Icon(
+                    Icons.arrow_forward_ios,
+                    color: Colors.white,
+                  ),
                 ],
               ),
             ),
